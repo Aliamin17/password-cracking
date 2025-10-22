@@ -9,3 +9,6 @@ SHA-256 hash for each candidate. If a match with the target hash is found, the c
 number of attempts, and the time taken are returned. The main part of the script instantiates the
 cracker, specifies the target dictionary path, and attempts to crack a specific hash, displaying the results
 including the cracked password (if successful), the total attempts made, and the time taken for the 
+he algorithm in the code works by systematically searching through each word in the dictionary,
+generating various combinations of those words with added digits and symbols, and then checking if
+the SHA-256 hash of each combination matches the target hash that needs to be cracked. 
